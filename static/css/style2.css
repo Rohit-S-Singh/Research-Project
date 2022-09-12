@@ -1,0 +1,43 @@
+body {
+  background-color: lightgrey;
+}
+
+#heading {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 40px;
+  padding: 20px 0;
+}
+
+.questions .question {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.questions .question .question-text {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.questions button {
+  width: 200px;
+}
+
+#result {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+#result button {
+  margin-top: 10px;
+}
